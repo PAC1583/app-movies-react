@@ -1,0 +1,80 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: 0.5s all ease;
+}
+
+button:hover {
+    background-color: rgb(159, 100, 219);
+}
+
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: rgb(171, 120, 220);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+
+
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.movie-card h2 {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.movie-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+
+.movie-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
