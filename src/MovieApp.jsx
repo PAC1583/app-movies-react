@@ -7,7 +7,7 @@ export const MovieApp = () => {
     const [moviesList, setMoviesList] = useState(null)
 
     const urlBase = "https://api.themoviedb.org/3/search/movie"
-    const API_KEY = "eacb10a62cafa28fde0e05f4d789cd0e"
+    const API_KEY = "YOUR_API_KEY"
 
     const handleInputChange = ({ target }) => {
         setSearch(target.value)
